@@ -1,0 +1,88 @@
+/* import font Roboto from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* page01 */
+.body01 {
+    background-color: #1F2937;
+    padding: 0 10%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.container01{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10% 0 10% 10%;
+    flex-grow: 1;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* page01 - left */
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 600px;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.hero-main{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;  
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
